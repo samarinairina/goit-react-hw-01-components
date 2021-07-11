@@ -1,0 +1,12 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+@media screen and (max-width: 1000px) {
+  .wrapper {
+    grid-template-columns: 100%;
+    .item {
+      margin-bottom: 20px;
+    }
+  }
+}
